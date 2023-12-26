@@ -4,9 +4,10 @@ body {
 
 .container {
     width: 250px;
-    height: 250px;
-    padding: 2rem;
+    height: 225px;
+    
 }
+
 
 #tile {
     padding-left: 8px;
@@ -37,5 +38,63 @@ form {
 
 nav {
     background-color: black;
+    
+}
+
+p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.highscore {
+    margin: 5px;
+}
+
+/* ul {
+    width: 25%;
+} */
+
+.parent {
+    border: 10px solid black;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    display: flex;
+    height: fit-content;
+    
+}
+
+.child {
+    display: inline-block;
+    width: 33.3%;
+}
+
+#words {
+    float: left;
+    border: black solid 3px;
+}
+
+#game{
+    margin: 0 auto;
+}
+
+#right-side {
+    float: right;
+    border: black solid 3px;
+    padding: 30px;
+}
+
+button {
+    margin: 10px;
+}
+
+.error {
+    color: white;
+    background-color: red;
+}
+
+.success {
+    color: white;
+    background-color: green;
     
 }
